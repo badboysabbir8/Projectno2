@@ -18,8 +18,8 @@ const containsEmoji = require('contains-emoji');
 const Recaptcha = require('express-recaptcha').RecaptchaV2;
 
 // Your reCAPTCHA keys
-const recaptcha_key_1 = '6LegHYwmAAAAAOmYT82OldAD5MOpo7S9g5pT0XfQ';
-const recaptcha_key_2 = '6LegHYwmAAAAAJSGEwz5G7jCD4tbBvrT-8nx3mBV';
+const recaptcha_key_1 = '6LfHze0pAAAAAF2SOEZTfgOR1xo5kl_8ufZMFg74';
+const recaptcha_key_2 = '6LfHze0pAAAAAKu6aQVDZgPsJMubebCAQj398uyz';
 
 const recaptcha = new Recaptcha(recaptcha_key_1, recaptcha_key_2);
 ;
